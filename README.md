@@ -20,8 +20,10 @@ FROM { tabela }
 ## Comando DISTINCT
 
 Omitir dados duplicados de uma tabela (retornar apenas dados únicos).
-
-* SELECT DISTINCT { coluna } FROM { tabela }
+```
+SELECT DISTINCT { coluna }
+FROM { tabela }
+```
 
 <br>
 
@@ -38,14 +40,16 @@ WHERE LastName = 'miller' AND firstName = 'anna'
 ```
 
 OBS: Operadores para as condições:
-* = IGUAL
-* > MAIOR QUE
-* < MENOR QUE
-* >= MAIOR QUE OU IGUAL
-* <= MENOR QUE OU IGUAL
-* <> DIFERENTE DE
-* AND OPERADOR 'E'
-* OR OPERADOR 'OU'
+```
+= IGUAL
+> MAIOR QUE
+< MENOR QUE
+>= MAIOR QUE OU IGUAL
+<= MENOR QUE OU IGUAL
+<> DIFERENTE DE
+AND OPERADOR 'E'
+OR OPERADOR 'OU'
+```
 
 ## Comando COUNT
 
