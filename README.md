@@ -82,7 +82,7 @@ OR OPERADOR 'OU'
 O comando COUNT serve para retornar a quantidade de linhas de acordo com a sua condição.
 
 ```
-SELECT DISTINCT COUNT(*)
+SELECT COUNT(*)
 FROM { tabela }
 ```
 
