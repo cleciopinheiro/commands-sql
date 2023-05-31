@@ -3,11 +3,10 @@
 ## Comando SELECT 
 
 Seleciona uma quantidade especifica de Linhas com um tipo específico de Categorias.
-
-* SELECT { coluna } FROM { tabela }
-  
-* SELECT * FROM { tabela }
-
+```
+SELECT { coluna } 
+FROM { tabela }
+```
 OBS: o * seleciona todas as colunas
 
 Um exemplo:
