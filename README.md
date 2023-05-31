@@ -215,19 +215,3 @@ FROM { tabela }
 DELETE FROM { tabela }
 WHERE { coluna } = { valor }
 ```
-
-<br>
-
-## Comando DELETE
-
-O comando DELETE é utilizado para apagar linhas do banco de dados
-
-OBS: Se atente em colocar uma condição para não apagar tudo.
-
-```
-SELECT { coluna }
-FROM { tabela }
-
-DELETE FROM { tabela }
-WHERE { coluna } = { valor }
-```
