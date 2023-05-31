@@ -1,5 +1,31 @@
 # Comandos Básicos de SQL
 
+## Comando AS
+
+O comando AS é usado para atribuir um alias (apelido) a uma tabela ou a uma coluna em uma consulta.
+
+```
+SELECT { coluna }
+FROM { tabela } AS { apelido }
+WHERE { apelido }.{ coluna } = { valor };
+```
+
+<br>
+
+## Comando LIMIT
+
+O comando LIMIT é usado no SQL para limitar o número de registros retornados por uma consulta.
+
+```
+SELECT { coluna }
+FROM { tabela }
+LIMIT { quantidade } OFFSET { quantidade };
+```
+
+OBS: O OFFSET é utilizado para iniciar a partir do valor especificado. E o LIMIT é o a quantidade máxima (limite) que você quer consultar.
+
+<br>
+
 ## Comando SELECT 
 
 Seleciona uma quantidade especifica de Linhas com um tipo específico de Categorias.
